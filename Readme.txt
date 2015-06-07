@@ -1,4 +1,4 @@
-================File Description===================================================
+=======File Description=======
 There are two folder of apps:
 Java folder includes all our Java apps in our paper. ToyAppTesting is for RQ 1, JSATesting is for RQ 2, bookstore and reflection are two market apps for RQ 3.
 Android folder includes three Andorid market apps for RQ 3
@@ -9,7 +9,7 @@ Calculator.jar is the executable to culculate numbers in the paper
 rt.jar is the library we used
 ===================================================================================
 
-================Usage Description===================================================
+=======Usage Description=======
 runJavaSSI.sh/runJavaFASI.sh Java ToyAppTesting/JSATesting/bookstore/reflection
 runAndroidSSI.sh/runAndroidFASI.sh Android App1/App2/App3
 
@@ -23,12 +23,13 @@ For example  ./runJavaSSI.sh Java bookstore will generate the result in Java/boo
 folder there is a .dot file, you can plot the automaton as graph with dotty.
 =====================================================================================
 
-================Result Generation===================================================
+=======Result Generation=======
 After you have analyzed an app, you can run the command:
 Calculate.sh Android App1/App2/App3
 or Calculate.sh Java ToyAppTesting/JSATesting/bookstore/reflection
 For example, if you run Calculate.sh Java ToyAppTesting
 You will see:
+
 Ave SSI: 0.7735550954399406 1.0 91.0
 Ave FASI: 0.8254840969126113 1.0 91.0
 Ave JSA: 0.11438426385633757 1.0 91.0
@@ -45,6 +46,8 @@ Mix Average SSI: 0.8049450549450549 1.0
 Mix Average FASI: 0.8919413919413919 1.0
 Mix Average JSA: 4.0769230769230753E-7 1.0
 
+
+Where the first colunm is the name of item. The second colunm is precision and the third colunm is recall. If there is a fourth colum, it represents the number of test cases.
 
 This result is slightly different than the result in our paper due to some improvement in our code
 
