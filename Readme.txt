@@ -7,7 +7,7 @@ Violist_*.jar are the main executable of Violist
 AutomatonGenerator.jar is used in the second phase of FSAI in Violist
 Calculator.jar is the executable to culculate numbers in the paper
 rt.jar is the library we used
-===================================================================================
+==============
 
 =======Usage Description=======
 runJavaSSI.sh/runJavaFASI.sh Java ToyAppTesting/JSATesting/bookstore/reflection
@@ -21,7 +21,7 @@ For example  ./runJavaSSI.sh Java bookstore will generate the result in Java/boo
 The result of runJavaFASI.sh and runAndroidFASI.sh will be in the folder of Automatons under each app.
 For example  ./runJavaSSI.sh Java bookstore will generate the result in Java/bookstore/Automatons. Each result in the
 folder there is a .dot file, you can plot the automaton as graph with dotty.
-=====================================================================================
+==============
 
 =======Result Generation=======
 After you have analyzed an app, you can run the command:
